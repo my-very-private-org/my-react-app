@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-react-app
+  description: na
+  annotations:
+    github.com/project-slug: my-very-private-org/my-react-app
+spec:
+  type: website
+  lifecycle: experimental
+  owner: Guest
